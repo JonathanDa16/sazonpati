@@ -1,0 +1,51 @@
+section{
+  margin: 8vh 5vw 14vh;
+  display: flex;
+  #left{
+    width: 55%;
+  }
+  #right{
+    width: 45%;
+    img{
+      width: 100%;
+    }
+  }
+}
+#bigText{
+  font-size: 4.5vw;
+  font-weight: 700;
+  color: #002762;
+  strong{
+    color: #FE2DA5;
+  }
+}
+
+#smallText{
+  color: #454545;
+  font-size: 2.2vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+button{
+  background-color: #FE2DA5;
+  color: #FFFFFF;
+  font-size: 2vw;
+  font-weight: 500;
+  width: 15vw;
+  height: 4vw;
+  border-radius: 10px;
+  border-color: #FE2DA5;
+
+}
+
+button:active {
+  background-color: #FFFFFF;
+  color: #FE2DA5;
+  border-color: #FE2DA5;
+}
+
+#showMenu{
+  margin-right: 5vw;
+}
+

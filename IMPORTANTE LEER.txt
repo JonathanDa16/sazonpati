@@ -1,0 +1,1 @@
+Esta pagina fue creada con el framework de ANGULAR 8, este archivo comprimido tiene el resultado de haber compilado la pagina web con el resultado final. Si se quiere acceder al codigo raiz ir a https://github.com/JonathanDa16/sazonpati.

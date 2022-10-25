@@ -1,0 +1,36 @@
+
+footer {
+  height: 30vh;
+  background-color: #FE2DA5;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #icon-footer {
+  width: 1rem;
+}
+footer #name {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+footer #copyright {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+}
+footer .legal, footer .legal:link, footer .legal:visited {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+#main-container-footer {
+  width: 100%;
+  text-align: center;
+}
+
+#main-container-footer div {
+  display: inline-block;
+}

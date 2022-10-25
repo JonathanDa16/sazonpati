@@ -1,0 +1,47 @@
+section{
+  display: flex;
+  margin: 8vh 5vw 14vh;
+}
+#left{
+  width: 40%;
+}
+h2{
+  color: #002762;
+  font-size: 4vw;
+  text-align: left;
+}
+#feedback{
+  margin-left: 12vw;
+}
+input{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: 2vw;
+}
+
+input[type="text"]{
+  font-size: 1.3vw;
+  border: none;
+  border-bottom: 1px solid #A6A6A6;
+}
+
+#day, #month, #year{
+  width: 10vw;
+}
+
+#phone,#feedbackInput{
+  width: 34vw;
+}
+
+input[type="button"]{
+  background-color: white;
+  border-color: white;
+  all: unset;
+  cursor: pointer;
+  color: #002762;
+}
+@media only screen and (max-width: 600px) {
+  section{
+    display: none;
+  }
+}

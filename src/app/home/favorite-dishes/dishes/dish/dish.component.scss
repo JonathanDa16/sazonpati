@@ -1,0 +1,43 @@
+.container{
+  height: 50vh;
+  width: 17vw;
+  text-align: center;
+  color:#002762;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  border-radius: 2vw;
+  padding: 3vw;
+}
+h3{
+  font-size: 1.8vw;
+}
+strong{
+  color: #FE2DA5;
+  font-weight: normal;
+}
+.container-img{
+  height: 60%;
+}
+.info{
+  height: 40%;
+  p{
+    font-size: 1.1vw;
+  }
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(3px 3px rgba(59, 59, 59, 0.5)) ;
+}
+
+@media only screen and (max-width: 800px) {
+  div.container{
+    width: 80vw;
+  }
+  h3{
+    font-size: 2.6vw !important;
+  }
+  p{
+    font-size: 2.2vw !important;
+  }
+}

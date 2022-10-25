@@ -1,0 +1,9 @@
+dish{
+  margin:auto;
+}
+
+@media only screen and (max-width: 800px) {
+  app-dish[name="Lonche de bañado"], app-dish[name="Lonche de pierna"]{
+    display: none;
+  }
+}
